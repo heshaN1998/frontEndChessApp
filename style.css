@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#mainTopic{
+font-weight: bold;
+
+}
+#outerMain{
+    
+    display: flex;
+    flex-direction: column;
+}
+#leftPannel{
+    width: 50%;
+    height: 100vh;
+    padding: 25px;
+    border: 2px solid black;
+}
+
+#rightPannel{
+    width: 50%;
+    height: 100vh;
+    padding: 25px;
+    position: absolute;
+    left: 50%;
+    border: 2px solid black
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 30px;
+    align-items: center;
+    background-color: aqua;
+}
+#introd{
+    font-weight: bolder;
+    padding-bottom: 5px;
+    
+}
+p{text-align: justify;}
+table{
+    width: 55%;
+    text-align: center;
+}
