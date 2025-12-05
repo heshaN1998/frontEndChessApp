@@ -5,8 +5,10 @@
 }
 #mainTopic{
 font-weight: bold;
+color: rgb(255, 18, 18);
 
 }
+
 #outerMain{
     
     display: flex;
@@ -28,12 +30,17 @@ font-weight: bold;
     border: 2px solid black
 }
 footer{
-    position: fixed;
+    position: absolute;
+    display: flex;
     bottom: 0;
     width: 100vw;
     height: 30px;
     align-items: center;
-    background-color: aqua;
+    background-color: rgb(0, 123, 154);
+    justify-content: space-around;
+}
+footer span{
+    padding: 10px;
 }
 #introd{
     font-weight: bolder;
@@ -63,6 +70,7 @@ table{
 }
 #a  > button:hover{
     font-size: 1.2rem;
+    
 }
 
 #reg {
@@ -70,12 +78,23 @@ table{
     width: 55%;
     color: red;
     border: 1px solid red;
-    background: #817aff;
+     background: #817aff;
     background: linear-gradient(100deg, rgba(2, 0, 36, 1) 0%, rgba(28, 213, 255, 1) 29%, rgba(0, 212, 255, 1) 100%);
 }
+
+
+#footerCont a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+#footerCont a:hover{
+    text-decoration: underline;
+}
+
 #b{
     width: 20%;
     background: #817aff;
+    button::hover;
     
 }
 #c{
