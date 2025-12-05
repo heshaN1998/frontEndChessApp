@@ -10,6 +10,9 @@ document.addEventListener("DOMContentLoaded",function(){
         const formData =new FormData(m)
         const data = Object.fromEntries(formData.entries())
         console.log(data);
-        m.reset();
-        })
+        const jsonTypeDetails = JSON.stringify(data);
+        console.log(jsonTypeDetails)
+         m.reset();
+
+        });
 })
