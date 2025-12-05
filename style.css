@@ -45,3 +45,40 @@ table{
     width: 55%;
     text-align: center;
 }
+#a{
+    display:flex;
+    flex-direction:row; 
+    justify-content:space-between; 
+    position: relative;
+    
+    
+}
+#a > button{
+    
+    height: 30px;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: transparent;
+    
+}
+#a  > button:hover{
+    font-size: 1.2rem;
+}
+
+#reg {
+    border: 1px blue;
+    width: 55%;
+    color: red;
+    border: 1px solid red;
+    background: #817aff;
+    background: linear-gradient(100deg, rgba(2, 0, 36, 1) 0%, rgba(28, 213, 255, 1) 29%, rgba(0, 212, 255, 1) 100%);
+}
+#b{
+    width: 20%;
+    background: #817aff;
+    
+}
+#c{
+    width: 20%;
+    background: #817aff;
+}
