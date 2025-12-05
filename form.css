@@ -65,16 +65,20 @@ margin: 5px;
 }
 .btn:hover{
     font-weight: bold;
+  
 }
 #btn-back{
-    background-color: rgb(255, 213, 0);
+background: #833AB4;
+background: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 76%, rgba(252, 176, 69, 1) 100%);
 
 }
 #btn-reset{
-    background-color: rgb(255, 0, 0);
+    background: #833AB4;
+background: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 76%, rgba(252, 176, 69, 1) 100%);
 
 }
 #btn-submit{
-    background-color: aqua;
+   background: #020024;
+background: linear-gradient(100deg,rgba(2, 0, 36, 1) 0%, rgba(28, 213, 255, 1) 47%, rgba(0, 212, 255, 1) 100%);
 
 }
