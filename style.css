@@ -2,6 +2,9 @@
     margin:0;
     box-sizing: border-box;
     overflow: hidden;
+    
+    
+
 }
 #mainTopic{
 font-weight: bold;
@@ -27,7 +30,8 @@ color: rgb(255, 18, 18);
     padding: 25px;
     position: absolute;
     left: 50%;
-    border: 2px solid black
+    border: 2px solid black;
+    
 }
 footer{
     position: absolute;
@@ -70,7 +74,7 @@ table{
 }
 #a  > button:hover{
     font-size: 1.2rem;
-    
+    cursor:pointer;
 }
 
 #reg {

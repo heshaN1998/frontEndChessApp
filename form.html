@@ -31,14 +31,14 @@
 </label>
 <input type="date" id="birth" name="birth">
 
-<div style="display:flex;flex-direction: row;position: relative;"></select><label for="lvl1">Beginner Level</label>
-<input type="checkbox" id="lvl1" name="lvl" value="">
+<div style="display:flex;flex-direction: row;position:relative;"></select><label for="lvl1">Beginner Level</label>
+<input type="checkbox" id="lvl1" name="lvl" value="1" onclick="onlyone">
 </select><label for="lvl2">Intermediat Level</label>
-<input type="checkbox" id="lvl2" name="lvl" value="">
+<input type="checkbox" id="lvl2" name="lvl" value="3">
 </select><label for="lvl3">Advanced Level</label>
-<input type="checkbox" id="lvl3" name="lvl" value="">
+<input type="checkbox" id="lvl3" name="lvl" value="3">
 </select><label for="lvl4">Expert Level</label>
-<input type="checkbox" id="lvl4" name="lvl" value="">
+<input type="checkbox" id="lvl4" name="lvl" value="4">
 </div>
 
 <label for="rating" id="rating" name rating>ELO Rating:</label>
@@ -48,9 +48,20 @@
     <option value="r">1800-2000</option>
     <option value="r">2000+</option>
 </select>
+<br>
+
+<div style="display: flex;flex-direction: row;position: relative;justify-content:center;padding-right: 300px;">
+<label for="op1">As Hobby</label>
+<input type="radio" id="op1" name="x" value="1">
+<label for="op2">As Sport</label>
+<input type="radio" id="op2" name="x" value="2">
+<label for="op3">As Profession</label>
+<input type="radio" id="op3" name="x" value="3">
+
+</div>
 
 <label for="email">Email:</label>
-<input id="email " name="email" type="text">
+<input id="email " name="email" type="text" placeholder="abcd@mail.com">
 
 <label for="contactNo">Contact No:</label>
 <input id="contactNo " name="number" type="text" placeholder="+94 71 5437 643">
@@ -67,8 +78,8 @@
 
 
 <div class="btn">
-    <button type="button" class="btn" id="btn-back">Back</button>
-    <button type="button" class="btn" id="btn-reset">Reset</button>
+    <button type="button" class="btn" id="btn-back" onclick="btnBack()">Back</button>
+    <button type="button" class="btn" id="btn-reset" onclick="formReset()">Reset</button>
     <button type="submit" class="btn" id="btn-submit">Submit</button>
 </div>
 </form>

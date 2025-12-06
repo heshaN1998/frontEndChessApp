@@ -16,3 +16,11 @@ document.addEventListener("DOMContentLoaded",function(){
 
         });
 })
+
+const formReset = () => {
+    document.getElementById("formData".reset());
+
+}
+const btnBack = () =>{
+    window.location.href="index.html"
+}

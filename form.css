@@ -1,16 +1,23 @@
 *{margin: 0;
+    color: blanchedalmond;
+        font-family:serif;
+        
+        background-image: url(/assortment-chess-pieces-with-dramatic-scenery.jpg);
     
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 #head{
+    color: rgb(1, 189, 241);
+    padding-top: 10px;
     font-size: 1.3rem;
     font-weight: bold;
     font-style: normal;
     text-align: center;
     padding-bottom:5px;
+    
 }
 
 #formData{
+   
     margin: 20px auto 0px auto;
     padding: 20px;
     border: 1px solid rgb(0, 0, 5);
@@ -33,6 +40,7 @@ input{
     width: 60%;
     height: 30px;
     border-radius: 7px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 select{
     width: 100px;
@@ -65,6 +73,7 @@ margin: 5px;
 }
 .btn:hover{
     font-weight: bold;
+    cursor: pointer;
   
 }
 #btn-back{
